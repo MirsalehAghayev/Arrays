@@ -1,0 +1,93 @@
+
+Arrays HomeWork 09.05.2022
+
+Task 2 
+
+using System;
+
+public class Program
+{
+public static void Main()
+{
+int[] array = {7, 3, 5, 8, 9, 10};
+int sum=0;
+
+for (int i=0; i<array.Length; i++)
+{
+if (array[i] % 2==0){
+sum+=array[i];
+}
+
+}
+Console.WriteLine(sum);
+}
+}
+
+task-4
+using System;
+					
+public class Program
+{
+public static void Main()
+{
+{
+int[] task={10,11,12,13,14,15};
+int[] newtask = new int [task.Length];
+int j = 0;
+		
+for(int i= task.Length-1; i>=0;i--)
+{
+newtask[j]= task[i];
+Console.WriteLine(newtask[j]);
+j++;
+}
+}
+
+
+
+Task- 6
+using System;
+
+public class Program
+{
+public static void Main()
+{
+
+int[] array = {1,2,3,4,5};
+int max=0;
+
+for (int i = 0; i < array.Length; i++) {
+if(array[i]>max){
+max=array[i];
+}
+
+}
+Console.WriteLine(max);
+}
+}
+
+
+
+Task-7
+using System;
+
+public class Program
+{
+public static void Main()
+{
+
+int[] array = {0,1,2,3,4,5};
+int min=0;
+
+for (int i = 0; i > array.Length; i++) {
+if(array[i]>min){
+min=array[i];
+}
+
+}
+Console.WriteLine(min);
+
+}
+}
+
+
